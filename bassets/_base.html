@@ -1,0 +1,15 @@
+<script type="text/javascript">
+	$.getScript( "https://cdn.smooch.io/smooch.min.js", function( data, textStatus, jqxhr ) {
+		Smooch.init({
+			emailCaptureEnabled: true,
+			appToken: $liveboxhq.token,
+			customText: $liveboxhq.text
+		});
+	});
+</script>
+
+<style type="text/css">
+	#sk-conversation div.sk-logo {
+		display: none;
+	}	
+</style>
