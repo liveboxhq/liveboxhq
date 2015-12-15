@@ -340,7 +340,7 @@
     
     <!-- LIVEBOX CONNECTION FOR CHAT SUPPORT -->
     <script type="text/javascript">
-        var hostname = (window.location.port=="8888") ? "http://liveboxhq.dev:8888" : "http://liveboxhq.com";
+        var hostname = (window.location.port=="8888") ? "http://liveboxhq.dev:8888" : "//liveboxhq.com";
         if(!window.jQuery) { var script = document.createElement('script'); script.type = "text/javascript"; script.src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"; script.addEventListener('load', function(){ $(function(){$('#livebox-container').load(hostname+"/bassets/liveboxhq.html");}); }); document.getElementsByTagName('head')[0].appendChild(script); } else { $(function(){$('#livebox-container').load(hostname+"/bassets/liveboxhq.html");}); }
     </script><div id="livebox-container"></div><!-- END OF LIVEBOX CONNECTION -->
     
