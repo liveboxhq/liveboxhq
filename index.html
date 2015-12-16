@@ -201,16 +201,15 @@
         <div class="vertical-center">
              <div class="container">
                 <div class="row">
-                    <div class="action take-tour">
-                        <div style="visibility: visible; animation-duration: 500ms; animation-delay: 300ms; animation-name: fadeInLeft;" class="col-sm-7 wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
-                            <h1 class="title">Pricing and the referrals program</h1>
-                            <p>A responsive, retina-ready &amp; wide multipurpose template. Referrals too!</p>
-                        </div>
-                        <div style="visibility: visible; animation-duration: 500ms; animation-delay: 300ms; animation-name: fadeInRight;" class="col-sm-5 text-center wow fadeInRight animated" data-wow-duration="500ms" data-wow-delay="300ms">
-                            <div class="tour-button">
-                                <a href="#" class="btn btn-common">TAKE THE TOUR</a>
-                             </div>
-                        </div>
+                    <div class="col-sm-offset-2 col-sm-8 text-center wow fadeInLeft animated" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <h1 class="title">Pricing and the Livebox° Referral Program</h1>
+                        <p>
+                            The Livebox° team is currently in the process of developing a pricing strategy that we believe will work best for our clients.
+                            If you have suggestions for an appropriate pricing range and structure, please do not hesitate to reach out!
+                        </p>
+                        <p>
+                            <a class="btn btn-primary" onclick="Smooch.open();">Let us know</a>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -266,16 +265,17 @@
                         </h2>
                         <div class="media">
                             <div class="pull-left">
-                                <img class="img-circle" src="/assets/brian_honigman.jpeg" style="max-width:75px;">
+                                <img class="img-circle" src="/assets/nicole_fallon_taylor.jpg" style="max-width:75px;">
                             </div>
                             <div class="media-body">
                                 <blockquote>
-                                    Adding live chat functionality to your website allows customers to chat with a business in real-time to ask questions, get advice and build confidence during their shopping experience, while improving conversion rates for your business.
+                                    Today's consumers are used to firing off text messages at all hours of the day to share information, ask questions and carry on conversations with one another. Although it may not be the norm for business-to-consumer communication just yet, text alerts are becoming more prevalent and accepted.
                                 </blockquote>
                                 <h3>
-                                    <a href="http://thenextweb.com/entrepreneur/2013/11/26/6-reasons-consider-adding-live-chat-support-business/" target="_blank">
-                                        - Brian Honigman
-                                    </a>
+                                    <a href="http://www.businessnewsdaily.com/7572-future-of-customer-service.html" target="_blank">- Nicole Fallon Taylor</a>, 
+                                    <small>
+                                        Business News Daily Assistant Editor
+                                    </small>
                                 </h3>
                             </div>
                         </div>
@@ -288,9 +288,7 @@
                                     Adding live chat functionality to your website allows customers to chat with a business in real-time to ask questions, get advice and build confidence during their shopping experience, while improving conversion rates for your business.
                                 </blockquote>
                                 <h3>
-                                    <a href="http://thenextweb.com/entrepreneur/2013/11/26/6-reasons-consider-adding-live-chat-support-business/" target="_blank">
-                                        - Brian Honigman
-                                    </a>,
+                                    <a href="http://thenextweb.com/entrepreneur/2013/11/26/6-reasons-consider-adding-live-chat-support-business/" target="_blank">- Brian Honigman</a>,
                                     <small>
                                         Social Media and Marketing Consultant
                                     </small>
@@ -302,20 +300,22 @@
                 <div class="col-md-4 col-sm-12">
                     <div class="contact-form bottom">
                         <h2>Send a message</h2>
-                        <form id="main-contact-form" name="contact-form" method="post" action="sendemail.php">
+                        <div id="main-contact-form">
                             <div class="form-group">
-                                <input name="name" class="form-control" required="required" placeholder="Name" type="text">
+                                <input disabled class="form-control" placeholder="Name" type="text">
                             </div>
                             <div class="form-group">
-                                <input name="email" class="form-control" required="required" placeholder="Email Id" type="email">
+                                <input disabled class="form-control" placeholder="Email Id" type="email">
                             </div>
                             <div class="form-group">
-                                <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Your text here"></textarea>
-                            </div>                        
-                            <div class="form-group">
-                                <input name="submit" class="btn btn-submit" value="Submit" type="submit">
+                                <textarea disabled id="message" class="form-control" rows="8">Nobody has time for sending emails into the virtual abyss any more...</textarea>
                             </div>
-                        </form>
+                            <div class="form-group">
+                                <button class="btn btn-submit" onclick="Smooch.open();">
+                                    Chat through a Livebox° instead
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-sm-12">
