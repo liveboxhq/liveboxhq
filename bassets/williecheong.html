@@ -1,7 +1,12 @@
 <script type="text/javascript">
 	var liveboxhqLoadCustomParams = function(defaults) {
 		defaults.smooch.appToken = "e4bn9jyz05h9ssep0auchcjx8";
-		defaults.smooch.customText.headerText = "Leave a message… beep!";
+		defaults.smooch.customText.headerText = "Leave a message… <em>beep</em>!";
+		defaults.smooch.introText = 'Ask me anything!';
+		defaults.smooch.settingsText = 'You can leave your email here so that I can get back to you this way.';
+		defaults.smooch.settingsReadOnlyText = 'I will get back to you at this email address if I missed you here.';
+        defaults.smooch.settingsNotificationText = 'In case I am slow to respond you can <a href="#" data-ui-settings-link>leave your email</a>.';
+
 		return defaults;
 	};
 </script>
