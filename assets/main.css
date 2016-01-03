@@ -229,7 +229,7 @@
 
 #contact {
   padding-bottom: 75px;
-  background-image: url(/assets/footer.png);
+  background-image: url(/assets/image/footer.png);
   background-repeat: repeat-x;
   background-position: bottom;
   background-size: contain;
@@ -322,7 +322,7 @@
 **************************/
 
 #home-slider {
-  background: url(/assets/slider-bg.png) 0 100% repeat-x;
+  background: url(/assets/image/slider-bg.png) 0 100% repeat-x;
   position: relative;
 }
 
@@ -445,7 +445,7 @@
 }
 
 #pricing {
-  background-image: url(/assets/tour-bg.png);
+  background-image: url(/assets/image/tour-bg.png);
   background-color: #fbfafa;
   background-repeat: repeat-x;
   height: 155px;
@@ -546,7 +546,7 @@
 }
 
 .tour-button {
-  background-image: url(/assets/tour-icon2.png);
+  background-image: url(/assets/image/tour-icon2.png);
   height: 100%;
   background-repeat: no-repeat;
   position: absolute;
