@@ -227,7 +227,7 @@
 *******Footer******
 **************************/
 
-#footer {
+#contact {
   padding-bottom: 75px;
   background-image: url(/assets/footer.png);
   background-repeat: repeat-x;
@@ -235,7 +235,7 @@
   background-size: contain;
 }
 
-#footer .bottom-separator {
+#contact .bottom-separator {
   margin-bottom: 60px;
 }
 
