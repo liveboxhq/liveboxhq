@@ -1,0 +1,9 @@
+If you have a restaurant website, it probably sucks. Your content is not always up to date, so website visitors often need to phone in to clarify opening hours, make inquiries about food items, etc. But restaurant staff are busy people, so callers often get frustrated responses, or ringing lines get missed. Potential customers do not enjoy making these phone calls either, and you lose business when they don't call.
+
+
+
+
+
+Restaurant websites suck. Besides the normally terrible designs, content is often out of sync with the reality of the business. Website visitors need to make contact with restaurants to clarify opening hours on holidays, make inquiries about menu items, etc. The number one way to do this currently is by making a phone call. But staff are busy, so callers often get frustrated responses, and ringing lines get missed. Potential customers do not enjoy making these phone calls either.
+
+I have been working on a new project called [Livebox, a fully managed chat support solution for restaurant businesses](http://liveboxhq.com). Restaurants subscribe to outsource communications to the Livebox service, which lives as an instant messaging widget directly on the restaurant's website for visitors to use. I am now ready to go out and find some pilot restaurants to give Livebox a spin. Also just in case anyone was wondering; yes, the chat widget at the bottom of this site is indeed powered by Livebox software.
