@@ -8,16 +8,13 @@
 
 
 <script type="text/javascript">
-    var hostname = (window.location.port=="8888") ? "http://liveboxhq.dev:8888" : "//liveboxhq.com";
-    $(function(){$('#livebox-boilerplate').load(hostname+"/bassets/!base.html");});
-</script>    
+	var hostname = (window.location.port=="8888") ? "http://liveboxhq.dev:8888" : "//liveboxhq.com";
+	$(function(){$('#livebox-boilerplate').load(hostname+"/bassets/!base.html");});
+</script>
 <div id="livebox-boilerplate"></div>
 
 <style>
-	#sk-container #sk-wrapper .sk-noselect #sk-header {
+	#sk-container > #sk-header {
 		background-color: #d89b4e;
-		border-color: #000;
-		border-style: solid;
-		border-bottom: none;
 	}
 </style>
